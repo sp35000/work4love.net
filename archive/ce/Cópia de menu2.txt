@@ -1,0 +1,17 @@
+<p class="menuinf" align="center">
+<nobr>
+<A HREF="11.html"><--</A>&nbsp;&nbsp;
+<A HREF="14.html">Feirinha</A>&nbsp;|&nbsp;
+<A HREF="13.html">Náutico</A>&nbsp;|&nbsp;
+Volta da Jurema
+<A HREF="15.html">1</A>&nbsp;|&nbsp;
+<A HREF="16.html">2</A>&nbsp;|&nbsp;
+<A HREF="17.html">3</A>&nbsp;|&nbsp;
+<A HREF="18.html">4</A>&nbsp;|&nbsp;
+<A HREF="19.html">5</A>&nbsp;|&nbsp;
+Mucuripe
+<A HREF="21.html">1</A>&nbsp;|&nbsp;
+<A HREF="40.html">2</A>&nbsp;|&nbsp;
+<A HREF="41.html">3</A>&nbsp;|&nbsp;
+<A HREF="index.html">Fortaleza Home</A><br>
+</nobr>

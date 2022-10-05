@@ -80,8 +80,6 @@ h4 {
 }
 
 .bg-panel {
-#  background-image: url("../images/greenTexture.jpg");
-#  background-image: url("../images/amazon.jpg");
   background-color: #CCFFCC;
   background-color: #3EC;
   border: 2px solid green;

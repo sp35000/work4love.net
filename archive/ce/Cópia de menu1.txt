@@ -1,0 +1,15 @@
+<p class="menuinf" align="center">
+<nobr>
+<A HREF="39.html"><--</A>&nbsp;|&nbsp;
+Cirandinha
+<A HREF="04.html">1</A>&nbsp;|&nbsp;
+<A HREF="05.html">2</A>&nbsp;|&nbsp;
+Ideal
+<A HREF="06.html">1</A>&nbsp;|&nbsp;
+<A HREF="07.html">2</A>&nbsp;|&nbsp;
+<A HREF="08.html">Diários</A>&nbsp;|&nbsp;
+<A HREF="09.html">Barao de Studart</A>&nbsp;|&nbsp;
+<A HREF="10.html">Ponta Mar</A>&nbsp;|&nbsp;
+<A HREF="11.html">Bancários</A>&nbsp;&nbsp;
+<A HREF="12.html">--></A>
+</nobr>
