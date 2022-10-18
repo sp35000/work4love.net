@@ -1,1 +1,9 @@
-<p class="annotation">Instruções: siga o menu da esquerda para a direita. Você estará caminhando na Beira-Mar de Fortaleza.<br>Obs.: Fotos com baixa resolução para rápido carregamento das páginas (Nov/2000).
+<p class="annotation">InstruÃ§Ãµes: siga o menu da esquerda para a direita. VocÃª estarÃ¡ caminhando na Beira-Mar de Fortaleza.<br/>
+Obs.: Fotos com baixa resoluÃ§Ã£o para rÃ¡pido carregamento das pÃ¡ginas (Nov/2000).
+</div>
+<div w3-include-html="/sig/include/footer.html"></div>
+</div>
+</div>
+<script>includeHTML();</script>
+</body>
+</html>

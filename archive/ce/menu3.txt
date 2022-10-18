@@ -1,5 +1,4 @@
 <p class="menuinf" align="center">
-<nobr>
 Praia de Iracema&nbsp;
 <A HREF="28.html">1</A>&nbsp;|&nbsp;
 <A HREF="30.html">2</A>&nbsp;|&nbsp;
@@ -9,4 +8,4 @@ Praia de Iracema&nbsp;
 <A HREF="35.html">Estoril</A>&nbsp;|&nbsp;
 <A HREF="25.html">Deck Bar</A>&nbsp;|&nbsp;
 <A HREF="24.html">Cais Bar --&gt;</A>
-</nobr>
+</p>

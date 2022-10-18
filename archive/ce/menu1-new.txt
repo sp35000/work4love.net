@@ -1,7 +1,7 @@
 <p class="menuinf" align="center">
 <nobr>
 <A HREF="39.html"><--</A>&nbsp;|&nbsp;
-Cirandinha
+Bebelu
 <A HREF="04.html">1</A>&nbsp;|&nbsp;
 <A HREF="05.html">2</A>&nbsp;|&nbsp;
 Ideal

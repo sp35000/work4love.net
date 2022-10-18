@@ -1,5 +1,4 @@
 <p class="menuinf" align="center">
-<nobr>
 <A HREF="25.html">&lt;-- Deck Bar</A>&nbsp;|&nbsp;
 Cais Bar: 1&nbsp;|&nbsp;
 <A HREF="23.html">2</A>&nbsp;|&nbsp;
@@ -8,4 +7,4 @@ Praia de Iracema&nbsp;
 <A HREF="38.html">5</A>&nbsp;|&nbsp;
 <A HREF="39.html">Barraca Solar</A>&nbsp;|&nbsp;
 <A HREF="03.html">--&gt;</A>
-</nobr>
+</p>
