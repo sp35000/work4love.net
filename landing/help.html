@@ -79,10 +79,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
    <h2>Fotos</h2>
    <p><span id="random_image">
-   <script type="text/javascript"
-   src="https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=2small"
-   async>
-   </script>
+     <script>
+     var isMobile = Math.min(window.screen.width, window.screen.height) < 768 || navigator.userAgent.indexOf("Mobi") > -1;
+     if (isMobile) {
+       piwigoURL="https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=2small";
+     } else {
+       piwigoURL="https://work4love.net/sig/serina/util/piwigo-random-backend.php?size=xsmall";
+     }
+     $.ajax({
+       url: piwigoURL,
+       success: function(data) {
+         $('.result').html(data);
+       }
+     });
+     </script>
  </span></p>
  <p>Galeria de fotos de viagens. <a href="/finn" target="_blank">Veja as fotos</a>.</p>
 
