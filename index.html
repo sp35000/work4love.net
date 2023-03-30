@@ -42,11 +42,21 @@
       setInterval(showTime, 120);
       showTime();
       </script>
-      <p>Se for sua primeira visita, consulte o <a href="/landing/help.html">Help</a>.</p>
+      <form method="get" action="/sig/serina/news3.php">
+       <label for="hashtag">News Search</label>
+       <input name="hashtag" size="40" type="text">&nbsp;
+       <input type="submit" class="btn btn-lg btn-success" value="Search">&nbsp;
+       <a href="/landing/help.html" class="btn btn-lg btn-success">Help</a>
+      </form>
+      <br/>
+      <form method="post" action="http://sp35000.pythonanywhere.com/" target="_blank">
+        <label for="text">QRCode Text</label>
+        <input name="text"  size="40" id="text" required>
+        <input type="submit" value="Generate" class="btn btn-lg btn-success">
+      </form>
     </div>
 
-    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
-
+    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
       <div class="col-md-4 columns text-center">
       <p>
         <a href="/sig/emma/" class="btn btn-lg btn-success">Sites</a>
@@ -101,63 +111,22 @@
         <a href="/sig/elle/pi.html">Raspbian</a>
         ]</strong>
       </p>
-    </div>
-
-    </div>
-
-    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
-      <br/>
-      <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-          <li data-target="#myCarousel" data-slide-to="4"></li>
-          <li data-target="#myCarousel" data-slide-to="5"></li>
-          <li data-target="#myCarousel" data-slide-to="6"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <p><img src="./images/fortaleza-2007-05-27_17.42.57.webp" height="200px"/></p>
-          </div>
-          <div class="item">
-            <p><img src="./images/sp-2010-09-17_17.09.12.webp" height="200px"/></p>
-          </div>
-          <div class="item">
-            <p><img src="./images/panama-2017-07-04_10.23.15.webp" height="200px"/></p>
-          </div>
-          <div class="item">
-            <p><img src="./images/monaco-2022-05-20_11.50.12.webp" height="200px"/></p>
-          </div>
-          <div class="item">
-            <p><img src="./images/lisboa-2018-11-06_17.38.48.webp" height="200px"/></p>
-          </div>
-          <div class="item">
-            <p><img src="./images/san_francisco-IMG_20170625_195656340.webp" height="200px"/></p>
-          </div>
-          <div class="item">
-            <p><img src="./images/opera.webp" height="200px"/></p>
-          </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
 
-    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
-      <h2>Serviços</h2>
+    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
+      <div class="col-md-8 columns text-left bg-grey">
+        <h2 align="center"><a href="/sig/serina/index.php">Latest News</a></h2>
+        <div w3-include-html="/sig/serina/news4.php"></div>
+      </div>
+      <div class="col-md-4 columns text-center">
+        <p align="center">
+          <a class="twitter-timeline" data-height="400" href="https://twitter.com/CelsoNomad?ref_src=twsrc%5Etfw">Tweets by CelsoNomad</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  </p>
+      </div>
+   </div>
+
+   <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
       <div class="col-md-4 columns text-center">
         <p>
           <a href="/nomad/" class="btn btn-lg btn-success" target="_blank">Blog</a><br/>
@@ -199,18 +168,6 @@
           Celculadora básica.
         </p>
       </div>
-
-    </div>
-
-    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
-    <h2>What's New - Atualizações do site</h2>
-    <p><a href="http://sp35000.pythonanywhere.com/" class="btn btn-lg btn-success" target="_blank">QR Code</a><br/>
-    Gerador de QR Code - Alpha Version.
-    </p>
-    <p class="bg-info" align="center"><small>Atualizações do site via <a href="https://twitter.com/CelsoNomad" target="_blank">Twitter @CelsoNomad</a></small></br>
-    <p align="center">
-      <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/CelsoNomad?ref_src=twsrc%5Etfw">Tweets by CelsoNomad</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  </p>
     </div>
 
     <div w3-include-html="/sig/include/footer.html"></div>
