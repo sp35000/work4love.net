@@ -33,7 +33,7 @@
 <div class="container content-fluid">
   <div class="row">
 
-    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
+    <div class="col-md-12 columns text-center firstdiv">
       <!-- <h1>Work4Love.net</h1> -->
       <h1><img src="/sig/images/Work4Love.net-logo.png" alt="Work4Love.net" width="40%"/></h1>
       <p class="bg-info"><big>Work4Love.net - Portal de serviços: Banco de dados de Notícias, Sites sobre Finanças, Tecnologia, Viagens, Cursos e Entretenimento, Galeria de fotos de viagem e Blog Nomad Fire Life.</big></p>
@@ -44,15 +44,9 @@
       </script>
       <form method="get" action="/sig/serina/news3.php">
        <label for="hashtag">News Search</label>
-       <input name="hashtag" size="40" type="text">&nbsp;
+       <input name="hashtag" type="text">&nbsp;
        <input type="submit" class="btn btn-lg btn-success" value="Search">&nbsp;
        <a href="/landing/help.html" class="btn btn-lg btn-success">Help</a>
-      </form>
-      <br/>
-      <form method="post" action="http://sp35000.pythonanywhere.com/" target="_blank">
-        <label for="text">QRCode Text</label>
-        <input name="text"  size="40" id="text" required>
-        <input type="submit" value="Generate" class="btn btn-lg btn-success">
       </form>
     </div>
 
@@ -126,7 +120,14 @@
       </div>
    </div>
 
-   <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
+   <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
+     <h2>Serviços</h2>
+     <form method="post" action="http://sp35000.pythonanywhere.com/" target="_blank">
+       <label for="text">QRCode Text</label>
+       <input name="text"  id="text" required>
+       <input type="submit" value="Generate" class="btn btn-lg btn-success">
+     </form>
+     <br/><br/>
       <div class="col-md-4 columns text-center">
         <p>
           <a href="/nomad/" class="btn btn-lg btn-success" target="_blank">Blog</a><br/>
