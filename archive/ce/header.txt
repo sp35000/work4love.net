@@ -30,6 +30,5 @@
  <div w3-include-html="/sig/include/menusup.html"></div>
  <div class="container">
  <div class="row">
- <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
+ <div class="col-md-12 columns text-center firstdiv">
  <h1>Fortaleza</h1>
- 
