@@ -43,7 +43,7 @@ include("./sig/include/menusup.php");
 
       <div class="col-md-4 columns text-center">
       <p>
-        <a href="/sig/serina/index.php" class="btn btn-lg btn-success">News</a>
+        <a href="/sig/serina/news1.php" class="btn btn-lg btn-success">News</a>
         <br/>
         Banco de dados com notícias dos sites úteis e fontes diversas.
       </p>
