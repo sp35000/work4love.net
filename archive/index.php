@@ -2,12 +2,12 @@
 $title="Work4Love.net - Archive: histórico do site.";
 $description="Work4Love.net - Archive: histórico do site.";
 $keywords="archive, old, content, australia, fortaleza, 1998, 2000, historico";
-include("/sig/include/header.php");
+include("../sig/include/header.php");
 ?>
 <body>
 <?php
-include("/sig/include/bodystart.php");
-include("/sig/include/menusup.php");
+include("../sig/include/bodystart.php");
+include("../sig/include/menusup.php");
 ?>
 
  <div class="container">
@@ -26,9 +26,9 @@ include("/sig/include/menusup.php");
  </div>
 
 </div>
-<?php include("/sig/include/footer.php"); ?>
+<?php include("../sig/include/footer.php"); ?>
 </div>
 </div>
-<?php include("/sig/include/bodyend.php"); ?>
+<?php include("../sig/include/bodyend.php"); ?>
 </body>
 </html>
