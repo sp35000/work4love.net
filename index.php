@@ -1,3 +1,15 @@
+<?php
+$title="Work4Love.net";
+$description="Work4Love.net - Portal de serviços: Banco de dados de Notícias, Sites sobre Finanças, Tecnologia, Viagens, Cursos e Entretenimento, Galeria de fotos de viagem e Blog Nomad Fire Life.";
+$keywords="coronvírus,sites,solidariedade,estudo,lazer,trabalho,noticias,mensagens";
+include("/sig/include/header.php");
+?>
+<body>
+<?php
+include("/sig/include/bodystart.php");
+include("/sig/include/menusup.php");
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -35,6 +47,8 @@
 </script>
 
 <div w3-include-html="/sig/include/menusup.html"></div>
+
+
 
 <div class="container content-fluid">
   <div class="row">
@@ -178,14 +192,10 @@
       </div>
     </div>
 
-    <div w3-include-html="/sig/include/footer.html"></div>
-
   </div>
+  <?php include("../include/footer.php"); ?>
 </div>
-<script>includeHTML();</script>
-<script src="/sig/js/cookie.js"></script>
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript"
-src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8671c07f6deb95"></script>
+</div>
+<?php include("../include/bodyend.php"); ?>
 </body>
 </html>
