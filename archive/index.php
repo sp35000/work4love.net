@@ -22,6 +22,9 @@ include("../sig/include/menusup.php");
 <p>A pedido de alguns amigos, eu recuperei o antigo site sobre a <a href="oz/" class="btn btn-lg btn-success" target="_blank">Australia</a>, modernizando para ficar responsivo e poder ser visto também em aparelhos celulares. O conteúdo foi mantido, tal qual como escrito originalmente em 1998.</p>
 <h2>Fortaleza</h2>
 <p>Foi também recuperado um antigo site sobre <a href="ce/" class="btn btn-lg btn-success" target="_blank">Fortaleza</a>, com uma sequência de fotos tiradas em novembro/2000 simulando uma caminhada pela Beira-Mar.</p>
+<h2>Coronavírus</h2>
+<p>O mundo teve dois anos muito difíceis, com a pandemia do Coronavírus.<br/>
+  Na época, o objetivo da página <a href="/coronavirus" target="_blank">Coronavírus</a> era reunir recursos que fossem úteis durante o isolamento.</p>
  </article>
  </div>
 

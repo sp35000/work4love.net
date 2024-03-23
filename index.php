@@ -22,111 +22,37 @@ include("./sig/include/menusup.php");
       setInterval(showTime, 120);
       showTime();
       </script>
-      <form method="get" action="/sig/serina/news3.php">
-       <label for="hashtag">News Search</label>
-       <input name="hashtag" type="text">&nbsp;
-       <input type="submit" class="btn btn-lg btn-success" value="Search">&nbsp;
-       <a href="/news" class="btn btn-lg btn-success" target="_blank">News By Date</a>
-       <a href="/landing/help.html" class="btn btn-lg btn-success">Help</a>
-      </form>
     </div>
 
     <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
+      <h2>Serviços</h2>
+      <form method="post" action="https://sp35000.pythonanywhere.com/" target="_blank">
+        <label for="text">QRCode Text</label>
+        <input name="text"  id="text" required>
+        <input type="submit" value="Generate" class="btn btn-lg btn-success">
+      </form>
+      <br/><br/>
+
       <div class="col-md-4 columns text-center">
       <p>
         <a href="/sig/emma/" class="btn btn-lg btn-success">Sites</a>
-        <!-- <br/>
-        Sites úteis: Finanças, Tecnologia, Viagens, Cursos e Entretenimento. -->
-      </p>
-      <p  class="bg-info" style="padding-left:10%;padding-right:10%"><strong>
-        [<a href="/sig/charlotte/">Formula 1</a>|
-        <a href="/sig/trilena/">Movies and TV</a>|
-        <a href="/sig/melody/">Music</a>|
-        <a href="/sig/serina/">Learning</a>|
-        <a href="/sig/elle/">Technology</a>|
-        <a href="/sig/finn/">Travel</a>|
-        <a href="/sig/rommie/">Finance</a>
-        ]</strong>
+        <br/>
+        Sites úteis: Finanças, Tecnologia, Viagens, Cursos e Entretenimento.
       </p>
       </div>
 
       <div class="col-md-4 columns text-center">
       <p>
         <a href="/sig/serina/index.php" class="btn btn-lg btn-success">News</a>
-        <!-- <br/>
-        Banco de dados com notícias dos sites úteis e fontes diversas. -->
-      </p>
-      <p  class="bg-info"><strong>
-        [<a href="/sig/serina/news2.php?category=Nature">Nature</a>|
-        <a href="/sig/serina/news2.php?category=World">World</a>|
-        <a href="/sig/serina/news2.php?category=Brasil">Brasil</a>|
-        <a href="/sig/serina/news2.php?category=America">America</a>|
-        <a href="/sig/serina/news2.php?category=Asia">Asia</a>|
-        <a href="/sig/serina/news2.php?category=Africa">Africa</a>|
-        <a href="/sig/serina/news2.php?category=Oceania">Oceania</a>|
-        <a href="/sig/serina/news2.php?category=Technology">Technology</a>|
-        <a href="/sig/serina/news2.php?category=Culture">Culture</a>|
-        <a href="/sig/serina/news2.php?category=Travel">Travel</a>|
-        <a href="/sig/serina/news2.php?category=Economy">Economy</a>
-        ]</strong>
+        <br/>
+        Banco de dados com notícias dos sites úteis e fontes diversas.
       </p>
       </div>
 
-      <div class="col-md-4 columns text-center">
-      <p>
-        <a href="/sig/elle/tranceit.html" class="btn btn-lg btn-success">IT</a>
-        <!-- <br/>
-        IT Cheat Sheet: dicas rápidas de T.I. -->
-      </p>
-      <p  class="bg-info"><strong>
-        [<a href="/sig/elle/network.html">Network</a>|
-        <a href="/sig/elle/mainframe.html">Mainframe</a>|
-        <a href="/sig/elle/database.html">Database</a>|
-        <a href="/sig/elle/oldunixlinux.html">Unix/Linux</a>|
-        <a href="/sig/elle/pi.html">Raspbian</a>
-        ]</strong>
-      </p>
-      </div>
-    </div>
-
-    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
-      <div class="col-md-8 columns text-left bg-grey">
-        <h2 align="center"><a href="/sig/serina/index.php">Latest News</a></h2>
-        <div w3-include-html="/sig/serina/news4.php"></div>
-      </div>
-      <div class="col-md-4 columns text-center">
-        <p align="center">
-          <a class="twitter-timeline" data-height="400" href="https://twitter.com/CelsoNomad?ref_src=twsrc%5Etfw">Tweets by CelsoNomad</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  </p>
-      </div>
-   </div>
-
-   <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%">
-     <h2>Serviços</h2>
-     <form method="post" action="https://sp35000.pythonanywhere.com/" target="_blank">
-       <label for="text">QRCode Text</label>
-       <input name="text"  id="text" required>
-       <input type="submit" value="Generate" class="btn btn-lg btn-success">
-     </form>
-     <br/><br/>
       <div class="col-md-4 columns text-center">
         <p>
           <a href="/nomad/" class="btn btn-lg btn-success" target="_blank">Blog</a><br/>
           Nomad Fire Life - Independência Financeira como Nômade Digital.
-        </p>
-      </div>
-
-      <div class="col-md-4 columns text-center">
-        <p>
-          <a href="/coronavirus/" class="btn btn-lg btn-success" target="_blank">Covid</a><br/>
-          Sites úteis durante a quarentena do coronavírus.
-        </p>
-      </div>
-
-      <div class="col-md-4 columns text-center">
-        <p>
-          <a href="/finn" class="btn btn-lg btn-success" target="_blank">Fotos</a><br/>
-          Galeria de fotos de viagens.
         </p>
       </div>
     </div>
@@ -151,6 +77,25 @@ include("./sig/include/menusup.php");
         </p>
       </div>
     </div>
+
+    <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
+      <h2>Cotações</h2>
+      <div class="frame-container">
+        <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vREdJFqdh2z9iss2b73Z3vvNywBhfGecHReDFeyUBL-S_DQMpV_Es76CKIPxa552_mhmmVb9p57B5Xe/pubhtml?gid=1413162259&amp;single=true&amp;widget=true&amp;headers=false" width="800px" height="400px">
+          <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span>
+          <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height:0;"class="mce_SELRES_start">﻿</span>
+        </iframe>
+      </div>
+      <p class="bg-info" align="center"><small>This spreadsheet is a courtesy of <strong><a href="https://rommiebr.com/" target="_blank">Rommie blog</a></strong>.</small></br></p>
+
+      <h2>Sobre este site</h2>
+      <p>Inicialmente, este site foi criado para armazenar meus sites favoritos em um lugar centralizado na Internet.<br/>
+      Ele já esteve hospedado inicialmente na Geocities, até chegar ao formato atual com domínio e hospedagem próprios.<br/>
+      Um dos objetivos deste site é que a pessoa vá atrás da informação no site desejado, ao invés de aceitar o que foi enviado por um algoritmo de redes sociais.<br/>
+      Ao longo do tempo, foram acrescentados mais Serviços sendo atualmente mais que um catálogo de sites.<br/>
+      O endereço Work4Love.net ficou sendo o portal para todos estes Serviços.</p>
+    </div>
+
 
   </div>
   <?php include("./sig/include/footer.php"); ?>
