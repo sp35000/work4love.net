@@ -93,9 +93,8 @@ include("./sig/include/menusup.php");
     Ao longo do tempo, foram acrescentados mais Serviços sendo atualmente mais que um catálogo de sites.<br/>
     O endereço Work4Love.net ficou sendo o portal para todos estes Serviços.</p>
     </div>
+  </div>
   <?php include("./sig/include/footer.php"); ?>
 </div>
-</div>
-<?php include("./sig/include/bodyend.php"); ?>
 </body>
 </html>
