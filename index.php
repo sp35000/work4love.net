@@ -35,7 +35,7 @@ include("./sig/include/tools.php");
       <br/>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-star"></span>
-        <h4><a href="/sig/emma/">Main</a></h4>
+        <h4><a href="/sig/emma/">Main Sites</a></h4>
       </div>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-usd"></span>
@@ -54,7 +54,7 @@ include("./sig/include/tools.php");
     <div class="col-md-12 columns text-center" style="padding-left:10%;padding-right:10%;padding-top:5%">
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-film"></span>
-        <h4><a href="/sig/videos/">Videos</a></h4>
+        <h4><a href="https://work4love.net/videos/" target="_blank">Videos</a></h4>
       </div>
       <div class="col-sm-3">
         <span class="glyphicon glyphicon-phone"></span>
